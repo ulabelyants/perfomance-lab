@@ -1,8 +1,9 @@
 HELP.md
-target/
+target/maven-status/**
+**/target/classes/**
+**/target/maven-status/**
+**/target/generated-sources/**
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
 ### STS ###
 .apt_generated
