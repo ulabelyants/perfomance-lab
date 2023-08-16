@@ -14,9 +14,9 @@ public class Task1 {
 
     do {
       array.add(i);
-      i = (i + (m - 1));
-      if (i > n) {
-        i = i - n;
+      i = (i + (n > m ? m : m) - 1);
+      if (n > m ? i > n : i > m) {
+        i = i - (n > m ? n : m);
       }
     } while (i != 1);
     array.forEach(t -> System.out.print(t.toString()));
